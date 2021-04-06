@@ -300,9 +300,7 @@ void init_CLC1(void){
     CLC1SEL3= 0X0;
     PIE3bits.CLC1IE = 1;
 }
-void doNothing(){
-    //Do nothing
-}
+
 
 void main(void) {
     OSCCONbits.IRCF = 0b1101;       //SET internal osc. frequency to 4MHz
