@@ -11,19 +11,19 @@
 [v ___omul __omul `(uo  1 e 8 0 ]
 "4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul8_16.c
 [v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
-"94 C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+"71 C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
 [v _isr isr `II(v  1 e 1 0 ]
-"198
+"175
 [v _init_peripheral init_peripheral `(v  1 e 1 0 ]
-"228
+"205
 [v _init_debounce_TMR4 init_debounce_TMR4 `(v  1 e 1 0 ]
-"250
+"227
 [v _init_PWM_TMR2 init_PWM_TMR2 `(v  1 e 1 0 ]
-"281
+"258
 [v _init_delay_TMR1 init_delay_TMR1 `(v  1 e 1 0 ]
-"289
+"266
 [v _init_CLC1 init_CLC1 `(v  1 e 1 0 ]
-"304
+"284
 [v _main main `(v  1 e 1 0 ]
 [s S88 . 1 `uc 1 IOCIF 1 0 :1:0 
 `uc 1 INTF 1 0 :1:1 
@@ -402,42 +402,42 @@
 [v _IOCCP4 IOCCP4 `VEb  1 e 0 @7356 ]
 "31702
 [v _nWPUEN nWPUEN `VEb  1 e 0 @1199 ]
-"86 C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+"63 C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
 [v _game game `[40]i  1 e 80 0 ]
-"87
+"64
 [v _input input `i  1 e 2 0 ]
-"304
+"284
 [v _main main `(v  1 e 1 0 ]
 {
-"415
+"395
 } 0
-"198
+"175
 [v _init_peripheral init_peripheral `(v  1 e 1 0 ]
 {
-"226
+"203
 } 0
-"281
+"258
 [v _init_delay_TMR1 init_delay_TMR1 `(v  1 e 1 0 ]
 {
-"287
+"264
 } 0
-"228
+"205
 [v _init_debounce_TMR4 init_debounce_TMR4 `(v  1 e 1 0 ]
 {
-"248
+"225
 } 0
-"250
+"227
 [v _init_PWM_TMR2 init_PWM_TMR2 `(v  1 e 1 0 ]
+{
+"256
+} 0
+"266
+[v _init_CLC1 init_CLC1 `(v  1 e 1 0 ]
 {
 "279
 } 0
-"289
-[v _init_CLC1 init_CLC1 `(v  1 e 1 0 ]
-{
-"302
-} 0
-"94
+"71
 [v _isr isr `II(v  1 e 1 0 ]
 {
-"196
+"173
 } 0

@@ -13,7 +13,8 @@
 
 
 
-
+# 1 "./pinConfig.h" 1
+# 22 "./pinConfig.h"
 #pragma config FOSC = INTOSC
 #pragma config PWRTE = OFF
 #pragma config MCLRE = ON
@@ -15331,8 +15332,9 @@ extern __bank0 unsigned char __resetbits;
 extern __bank0 __bit __powerdown;
 extern __bank0 __bit __timeout;
 # 27 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.10\\pic\\include\\xc.h" 2 3
-# 30 "main.c" 2
-# 68 "main.c"
+# 44 "./pinConfig.h" 2
+# 7 "main.c" 2
+# 45 "main.c"
 # 1 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.10\\pic\\include\\c99\\stdint.h" 1 3
 # 22 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.10\\pic\\include\\c99\\stdint.h" 3
 # 1 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.10\\pic\\include\\c99\\bits/alltypes.h" 1 3
@@ -15416,7 +15418,7 @@ typedef int32_t int_fast32_t;
 typedef uint32_t uint_fast16_t;
 typedef uint32_t uint_fast32_t;
 # 139 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.10\\pic\\include\\c99\\stdint.h" 2 3
-# 68 "main.c" 2
+# 45 "main.c" 2
 
 # 1 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.10\\pic\\include\\c99\\math.h" 1 3
 # 15 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.10\\pic\\include\\c99\\math.h" 3
@@ -15790,7 +15792,7 @@ double jn(int, double);
 double y0(double);
 double y1(double);
 double yn(int, double);
-# 69 "main.c" 2
+# 46 "main.c" 2
 
 
 const uint8_t red_tone = 38;
@@ -16025,6 +16027,9 @@ void init_CLC1(void){
     CLC1SEL3= 0X0;
     PIE3bits.CLC1IE = 1;
 }
+void doNothing(){
+
+}
 
 void main(void) {
     OSCCONbits.IRCF = 0b1101;
@@ -16040,7 +16045,7 @@ void main(void) {
     init_PWM_TMR2();
     init_delay_TMR1();
     init_CLC1();
-# 407 "main.c"
+# 387 "main.c"
     while(1){
 
 
