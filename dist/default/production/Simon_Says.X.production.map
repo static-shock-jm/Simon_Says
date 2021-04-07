@@ -5,7 +5,7 @@ Linker command line:
 -W-3 --edf=C:\Program Files (x86)\Microchip\xc8\v2.10\pic\dat\en_msgs.txt \
   -cs -h+dist/default/production\Simon_Says.X.production.sym \
   --cmf=dist/default/production\Simon_Says.X.production.cmf -z -Q16F1614 \
-  -oC:\Users\Jaime\AppData\Local\Temp\s4gc.2 --defsym=__MPLAB_BUILD=1 \
+  -oC:\Users\Jaime\AppData\Local\Temp\ssso.2 --defsym=__MPLAB_BUILD=1 \
   -Mdist/default/production/Simon_Says.X.production.map -E1 -ver=XC8 \
   --acfsm=1493 -ASTACK=02050h-021EFh -pstack=STACK -ACODE=00h-07FFhx2 \
   -ASTRCODE=00h-0FFFh -ASTRING=00h-0FFhx16 -ACONST=00h-0FFhx16 \
@@ -29,7 +29,7 @@ Linker command line:
   -ppowerup=CODE -pcinit=CODE -pfunctab=ENTRY -ACONFIG=08007h-08009h \
   -pconfig=CONFIG -DCONFIG=2 -AIDLOC=08000h-08003h -pidloc=IDLOC -DIDLOC=2 \
   -DCODE=2 -DSTRCODE=2 -DSTRING=2 -DCONST=2 -DENTRY=2 -k \
-  C:\Users\Jaime\AppData\Local\Temp\s4gc.o \
+  C:\Users\Jaime\AppData\Local\Temp\ssso.o \
   dist/default/production\Simon_Says.X.production.o 
 
 Object code version is 3.11
@@ -39,7 +39,7 @@ Machine type is 16F1614
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\Jaime\AppData\Local\Temp\s4gc.o
+C:\Users\Jaime\AppData\Local\Temp\ssso.o
                 end_init                             E6       E6        2        8       0
                 reset_vec                             0        0        2        0       0
                 config                             8007     8007        3    1000E       0
@@ -702,7 +702,7 @@ FUNCTION INFORMATION:
 
  *************** function _main *****************
  Defined at:
-		line 284 in file "main.c"
+		line 243 in file "main.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -735,7 +735,7 @@ Total ram usage:        0 bytes
 
  *************** function _init_peripheral *****************
  Defined at:
-		line 175 in file "main.c"
+		line 163 in file "main.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -765,7 +765,7 @@ Total ram usage:        0 bytes
 
  *************** function _init_delay_TMR1 *****************
  Defined at:
-		line 258 in file "main.c"
+		line 217 in file "main.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -795,7 +795,7 @@ Total ram usage:        0 bytes
 
  *************** function _init_debounce_TMR4 *****************
  Defined at:
-		line 205 in file "main.c"
+		line 193 in file "main.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -825,7 +825,7 @@ Total ram usage:        0 bytes
 
  *************** function _init_PWM_TMR2 *****************
  Defined at:
-		line 227 in file "main.c"
+		line 13 in file "PWM.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -855,7 +855,7 @@ Total ram usage:        1 bytes
 
  *************** function _init_CLC1 *****************
  Defined at:
-		line 266 in file "main.c"
+		line 225 in file "main.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -885,7 +885,7 @@ Total ram usage:        0 bytes
 
  *************** function _isr *****************
  Defined at:
-		line 71 in file "main.c"
+		line 59 in file "main.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -916,6 +916,11 @@ Total ram usage:        0 bytes
 MODULE INFORMATION
 
 Module		Function		Class		Link	Load	Size
+PWM.c
+		_init_PWM_TMR2 		CODE           	00FC	0000	56
+
+PWM.c estimated size: 56
+
 shared
 		_test_tone     		STRCODE        	0000	0000	0
 		_green_tone    		STRCODE        	0000	0000	0
@@ -940,8 +945,7 @@ main.c
 		_isr           		CODE           	0004	0000	227
 		_init_delay_TMR1		CODE           	0195	0000	12
 		_init_CLC1     		CODE           	0182	0000	20
-		_init_PWM_TMR2 		CODE           	00FC	0000	56
 		_init_peripheral		CODE           	0169	0000	26
 
-main.c estimated size: 397
+main.c estimated size: 341
 

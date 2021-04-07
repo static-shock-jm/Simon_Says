@@ -1,3 +1,4 @@
 build/default/production/main.p1:  \
 main.c  \
-pinConfig.h 
+pinConfig.h  \
+PWM.h 

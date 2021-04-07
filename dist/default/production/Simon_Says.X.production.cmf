@@ -37,7 +37,7 @@ stringtext10 STRCODE 0 1BF 1BF 1 2
 stringtext11 STRCODE 0 1C0 1C0 1 2
 stringtext12 STRCODE 0 1C1 1C1 1 2
 stringtext13 STRCODE 0 1C2 1C2 1 2
-$C:\Users\Jaime\AppData\Local\Temp\s4gc.o
+$C:\Users\Jaime\AppData\Local\Temp\ssso.o
 reset_vec CODE 0 0 0 2 2
 end_init CODE 0 E6 E6 2 2
 config CONFIG 0 8007 8007 3 2
@@ -119,210 +119,210 @@ STRING 1C3-FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\Simon_Says.X.production.o
-E8 cinit CODE >1208:C:\Users\Jaime\AppData\Local\Temp\s4gc.s
-E8 cinit CODE >1211:C:\Users\Jaime\AppData\Local\Temp\s4gc.s
-E8 cinit CODE >1244:C:\Users\Jaime\AppData\Local\Temp\s4gc.s
-E9 cinit CODE >1245:C:\Users\Jaime\AppData\Local\Temp\s4gc.s
-EA cinit CODE >1246:C:\Users\Jaime\AppData\Local\Temp\s4gc.s
-EB cinit CODE >1247:C:\Users\Jaime\AppData\Local\Temp\s4gc.s
-EC cinit CODE >1248:C:\Users\Jaime\AppData\Local\Temp\s4gc.s
-ED cinit CODE >1249:C:\Users\Jaime\AppData\Local\Temp\s4gc.s
-F0 cinit CODE >1253:C:\Users\Jaime\AppData\Local\Temp\s4gc.s
-F1 cinit CODE >1254:C:\Users\Jaime\AppData\Local\Temp\s4gc.s
-F2 cinit CODE >1255:C:\Users\Jaime\AppData\Local\Temp\s4gc.s
-F3 cinit CODE >1256:C:\Users\Jaime\AppData\Local\Temp\s4gc.s
-F4 cinit CODE >1257:C:\Users\Jaime\AppData\Local\Temp\s4gc.s
-F5 cinit CODE >1258:C:\Users\Jaime\AppData\Local\Temp\s4gc.s
-F8 cinit CODE >1264:C:\Users\Jaime\AppData\Local\Temp\s4gc.s
-F8 cinit CODE >1266:C:\Users\Jaime\AppData\Local\Temp\s4gc.s
-F9 cinit CODE >1267:C:\Users\Jaime\AppData\Local\Temp\s4gc.s
-FA cinit CODE >1268:C:\Users\Jaime\AppData\Local\Temp\s4gc.s
-4 intentry CODE >71:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-6 intentry CODE >73:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-B intentry CODE >74:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-D intentry CODE >75:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-F intentry CODE >48:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-11 intentry CODE >77:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-13 intentry CODE >53:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-15 intentry CODE >79:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-17 intentry CODE >81:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-18 intentry CODE >82:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-1B intentry CODE >83:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-1D intentry CODE >84:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-29 intentry CODE >85:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-2D intentry CODE >86:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-2F intentry CODE >58:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-30 intentry CODE >88:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-32 intentry CODE >91:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-34 intentry CODE >92:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-35 intentry CODE >93:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-39 intentry CODE >94:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-3B intentry CODE >95:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-3D intentry CODE >49:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-3F intentry CODE >97:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-41 intentry CODE >54:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-43 intentry CODE >99:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-45 intentry CODE >101:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-46 intentry CODE >102:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-49 intentry CODE >103:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-4B intentry CODE >104:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-57 intentry CODE >105:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-5B intentry CODE >106:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-5D intentry CODE >58:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-5E intentry CODE >108:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-62 intentry CODE >110:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-64 intentry CODE >111:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-65 intentry CODE >112:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-69 intentry CODE >113:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-6B intentry CODE >114:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-6D intentry CODE >50:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-6F intentry CODE >116:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-71 intentry CODE >55:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-73 intentry CODE >118:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-75 intentry CODE >120:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-76 intentry CODE >121:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-79 intentry CODE >122:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-7B intentry CODE >123:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-87 intentry CODE >124:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-8B intentry CODE >125:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-8D intentry CODE >58:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-8E intentry CODE >127:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-92 intentry CODE >129:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-94 intentry CODE >130:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-95 intentry CODE >131:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-99 intentry CODE >132:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-9B intentry CODE >133:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-9D intentry CODE >51:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-9F intentry CODE >135:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-A1 intentry CODE >56:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-A3 intentry CODE >137:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-A5 intentry CODE >139:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-A6 intentry CODE >140:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-A9 intentry CODE >141:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-AB intentry CODE >142:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-B7 intentry CODE >143:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-BB intentry CODE >144:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-BD intentry CODE >58:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-BE intentry CODE >146:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-C2 intentry CODE >149:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-C4 intentry CODE >150:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-C5 intentry CODE >151:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-CA intentry CODE >152:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-CC intentry CODE >154:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-CD intentry CODE >155:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-D0 intentry CODE >156:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-D0 intentry CODE >157:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-D5 intentry CODE >158:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-D7 intentry CODE >159:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-D8 intentry CODE >164:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-D9 intentry CODE >165:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-E2 intentry CODE >168:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-E3 intentry CODE >171:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-E4 intentry CODE >173:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-182 text5 CODE >266:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-182 text5 CODE >268:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-185 text5 CODE >269:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-187 text5 CODE >270:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-189 text5 CODE >271:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-18A text5 CODE >272:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-18B text5 CODE >273:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-18D text5 CODE >274:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-18E text5 CODE >275:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-190 text5 CODE >276:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-191 text5 CODE >277:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-192 text5 CODE >278:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-194 text5 CODE >279:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-FC text4 CODE >227:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-FC text4 CODE >230:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-FE text4 CODE >231:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-101 text4 CODE >232:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-104 text4 CODE >48:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-107 text4 CODE >236:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-10C text4 CODE >237:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-10D text4 CODE >238:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-10E text4 CODE >240:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-10F text4 CODE >58:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-110 text4 CODE >243:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-112 text4 CODE >244:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-114 text4 CODE >245:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-116 text4 CODE >246:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-117 text4 CODE >247:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-119 text4 CODE >248:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-11A text4 CODE >249:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-11B text4 CODE >250:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-11D text4 CODE >252:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-11E text4 CODE >253:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-11F text4 CODE >252:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-130 text4 CODE >255:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-132 text4 CODE >256:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-14F text3 CODE >205:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-14F text3 CODE >206:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-151 text3 CODE >207:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-153 text3 CODE >208:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-156 text3 CODE >209:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-158 text3 CODE >210:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-159 text3 CODE >211:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-15A text3 CODE >212:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-15B text3 CODE >213:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-15D text3 CODE >215:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-15F text3 CODE >217:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-161 text3 CODE >218:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-162 text3 CODE >219:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-163 text3 CODE >220:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-164 text3 CODE >221:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-165 text3 CODE >222:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-166 text3 CODE >223:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-167 text3 CODE >224:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-168 text3 CODE >225:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-195 text2 CODE >258:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-195 text2 CODE >260:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-198 text2 CODE >261:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-199 text2 CODE >262:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-19B text2 CODE >263:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-19F text2 CODE >264:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-169 text1 CODE >175:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-169 text1 CODE >177:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-16B text1 CODE >178:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-16C text1 CODE >179:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-16D text1 CODE >180:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-16E text1 CODE >182:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-170 text1 CODE >183:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-171 text1 CODE >184:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-172 text1 CODE >185:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-173 text1 CODE >187:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-175 text1 CODE >188:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-176 text1 CODE >191:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-178 text1 CODE >192:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-179 text1 CODE >193:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-17A text1 CODE >194:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-17B text1 CODE >197:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-17C text1 CODE >199:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-17E text1 CODE >200:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-17F text1 CODE >201:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-180 text1 CODE >202:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-181 text1 CODE >203:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-133 maintext CODE >284:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-133 maintext CODE >285:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-138 maintext CODE >288:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-139 maintext CODE >289:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-13A maintext CODE >290:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-13B maintext CODE >291:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-13C maintext CODE >292:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-13D maintext CODE >293:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-140 maintext CODE >294:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-143 maintext CODE >295:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-146 maintext CODE >296:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-149 maintext CODE >297:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-14C maintext CODE >387:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-14C maintext CODE >393:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-1B2 clrtext CODE >1233:C:\Users\Jaime\AppData\Local\Temp\s4gc.s
-1B2 clrtext CODE >1234:C:\Users\Jaime\AppData\Local\Temp\s4gc.s
-1B3 clrtext CODE >1235:C:\Users\Jaime\AppData\Local\Temp\s4gc.s
-1B3 clrtext CODE >1236:C:\Users\Jaime\AppData\Local\Temp\s4gc.s
-1B4 clrtext CODE >1237:C:\Users\Jaime\AppData\Local\Temp\s4gc.s
-1B5 clrtext CODE >1238:C:\Users\Jaime\AppData\Local\Temp\s4gc.s
-1B6 clrtext CODE >1239:C:\Users\Jaime\AppData\Local\Temp\s4gc.s
-1B7 clrtext CODE >1240:C:\Users\Jaime\AppData\Local\Temp\s4gc.s
+E8 cinit CODE >2018:C:\Users\Jaime\AppData\Local\Temp\ssso.s
+E8 cinit CODE >2021:C:\Users\Jaime\AppData\Local\Temp\ssso.s
+E8 cinit CODE >2054:C:\Users\Jaime\AppData\Local\Temp\ssso.s
+E9 cinit CODE >2055:C:\Users\Jaime\AppData\Local\Temp\ssso.s
+EA cinit CODE >2056:C:\Users\Jaime\AppData\Local\Temp\ssso.s
+EB cinit CODE >2057:C:\Users\Jaime\AppData\Local\Temp\ssso.s
+EC cinit CODE >2058:C:\Users\Jaime\AppData\Local\Temp\ssso.s
+ED cinit CODE >2059:C:\Users\Jaime\AppData\Local\Temp\ssso.s
+F0 cinit CODE >2063:C:\Users\Jaime\AppData\Local\Temp\ssso.s
+F1 cinit CODE >2064:C:\Users\Jaime\AppData\Local\Temp\ssso.s
+F2 cinit CODE >2065:C:\Users\Jaime\AppData\Local\Temp\ssso.s
+F3 cinit CODE >2066:C:\Users\Jaime\AppData\Local\Temp\ssso.s
+F4 cinit CODE >2067:C:\Users\Jaime\AppData\Local\Temp\ssso.s
+F5 cinit CODE >2068:C:\Users\Jaime\AppData\Local\Temp\ssso.s
+F8 cinit CODE >2074:C:\Users\Jaime\AppData\Local\Temp\ssso.s
+F8 cinit CODE >2076:C:\Users\Jaime\AppData\Local\Temp\ssso.s
+F9 cinit CODE >2077:C:\Users\Jaime\AppData\Local\Temp\ssso.s
+FA cinit CODE >2078:C:\Users\Jaime\AppData\Local\Temp\ssso.s
+4 intentry CODE >59:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+6 intentry CODE >61:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+B intentry CODE >62:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+D intentry CODE >63:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+F intentry CODE >23:C:\Users\Jaime\MPLABXProjects\Simon_Says.X/PWM.h
+11 intentry CODE >65:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+13 intentry CODE >28:C:\Users\Jaime\MPLABXProjects\Simon_Says.X/PWM.h
+15 intentry CODE >67:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+17 intentry CODE >69:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+18 intentry CODE >70:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+1B intentry CODE >71:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+1D intentry CODE >72:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+29 intentry CODE >73:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+2D intentry CODE >74:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+2F intentry CODE >33:C:\Users\Jaime\MPLABXProjects\Simon_Says.X/PWM.h
+30 intentry CODE >76:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+32 intentry CODE >79:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+34 intentry CODE >80:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+35 intentry CODE >81:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+39 intentry CODE >82:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+3B intentry CODE >83:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+3D intentry CODE >24:C:\Users\Jaime\MPLABXProjects\Simon_Says.X/PWM.h
+3F intentry CODE >85:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+41 intentry CODE >29:C:\Users\Jaime\MPLABXProjects\Simon_Says.X/PWM.h
+43 intentry CODE >87:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+45 intentry CODE >89:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+46 intentry CODE >90:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+49 intentry CODE >91:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+4B intentry CODE >92:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+57 intentry CODE >93:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+5B intentry CODE >94:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+5D intentry CODE >33:C:\Users\Jaime\MPLABXProjects\Simon_Says.X/PWM.h
+5E intentry CODE >96:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+62 intentry CODE >98:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+64 intentry CODE >99:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+65 intentry CODE >100:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+69 intentry CODE >101:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+6B intentry CODE >102:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+6D intentry CODE >25:C:\Users\Jaime\MPLABXProjects\Simon_Says.X/PWM.h
+6F intentry CODE >104:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+71 intentry CODE >30:C:\Users\Jaime\MPLABXProjects\Simon_Says.X/PWM.h
+73 intentry CODE >106:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+75 intentry CODE >108:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+76 intentry CODE >109:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+79 intentry CODE >110:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+7B intentry CODE >111:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+87 intentry CODE >112:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+8B intentry CODE >113:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+8D intentry CODE >33:C:\Users\Jaime\MPLABXProjects\Simon_Says.X/PWM.h
+8E intentry CODE >115:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+92 intentry CODE >117:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+94 intentry CODE >118:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+95 intentry CODE >119:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+99 intentry CODE >120:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+9B intentry CODE >121:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+9D intentry CODE >26:C:\Users\Jaime\MPLABXProjects\Simon_Says.X/PWM.h
+9F intentry CODE >123:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+A1 intentry CODE >31:C:\Users\Jaime\MPLABXProjects\Simon_Says.X/PWM.h
+A3 intentry CODE >125:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+A5 intentry CODE >127:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+A6 intentry CODE >128:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+A9 intentry CODE >129:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+AB intentry CODE >130:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+B7 intentry CODE >131:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+BB intentry CODE >132:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+BD intentry CODE >33:C:\Users\Jaime\MPLABXProjects\Simon_Says.X/PWM.h
+BE intentry CODE >134:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+C2 intentry CODE >137:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+C4 intentry CODE >138:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+C5 intentry CODE >139:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+CA intentry CODE >140:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+CC intentry CODE >142:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+CD intentry CODE >143:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+D0 intentry CODE >144:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+D0 intentry CODE >145:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+D5 intentry CODE >146:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+D7 intentry CODE >147:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+D8 intentry CODE >152:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+D9 intentry CODE >153:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+E2 intentry CODE >156:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+E3 intentry CODE >159:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+E4 intentry CODE >161:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+182 text5 CODE >225:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+182 text5 CODE >227:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+185 text5 CODE >228:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+187 text5 CODE >229:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+189 text5 CODE >230:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+18A text5 CODE >231:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+18B text5 CODE >232:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+18D text5 CODE >233:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+18E text5 CODE >234:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+190 text5 CODE >235:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+191 text5 CODE >236:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+192 text5 CODE >237:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+194 text5 CODE >238:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+FC text4 CODE >13:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\PWM.c
+FC text4 CODE >16:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\PWM.c
+FE text4 CODE >17:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\PWM.c
+101 text4 CODE >18:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\PWM.c
+104 text4 CODE >23:C:\Users\Jaime\MPLABXProjects\Simon_Says.X/PWM.h
+107 text4 CODE >22:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\PWM.c
+10C text4 CODE >23:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\PWM.c
+10D text4 CODE >24:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\PWM.c
+10E text4 CODE >26:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\PWM.c
+10F text4 CODE >33:C:\Users\Jaime\MPLABXProjects\Simon_Says.X/PWM.h
+110 text4 CODE >29:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\PWM.c
+112 text4 CODE >30:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\PWM.c
+114 text4 CODE >31:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\PWM.c
+116 text4 CODE >32:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\PWM.c
+117 text4 CODE >33:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\PWM.c
+119 text4 CODE >34:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\PWM.c
+11A text4 CODE >35:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\PWM.c
+11B text4 CODE >36:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\PWM.c
+11D text4 CODE >38:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\PWM.c
+11E text4 CODE >39:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\PWM.c
+11F text4 CODE >38:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\PWM.c
+130 text4 CODE >41:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\PWM.c
+132 text4 CODE >42:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\PWM.c
+14F text3 CODE >193:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+14F text3 CODE >194:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+151 text3 CODE >195:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+153 text3 CODE >196:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+156 text3 CODE >197:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+158 text3 CODE >198:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+159 text3 CODE >199:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+15A text3 CODE >200:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+15B text3 CODE >201:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+15D text3 CODE >203:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+15F text3 CODE >205:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+161 text3 CODE >206:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+162 text3 CODE >207:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+163 text3 CODE >208:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+164 text3 CODE >209:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+165 text3 CODE >210:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+166 text3 CODE >211:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+167 text3 CODE >212:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+168 text3 CODE >213:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+195 text2 CODE >217:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+195 text2 CODE >219:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+198 text2 CODE >220:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+199 text2 CODE >221:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+19B text2 CODE >222:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+19F text2 CODE >223:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+169 text1 CODE >163:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+169 text1 CODE >165:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+16B text1 CODE >166:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+16C text1 CODE >167:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+16D text1 CODE >168:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+16E text1 CODE >170:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+170 text1 CODE >171:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+171 text1 CODE >172:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+172 text1 CODE >173:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+173 text1 CODE >175:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+175 text1 CODE >176:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+176 text1 CODE >179:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+178 text1 CODE >180:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+179 text1 CODE >181:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+17A text1 CODE >182:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+17B text1 CODE >185:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+17C text1 CODE >187:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+17E text1 CODE >188:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+17F text1 CODE >189:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+180 text1 CODE >190:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+181 text1 CODE >191:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+133 maintext CODE >243:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+133 maintext CODE >244:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+138 maintext CODE >247:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+139 maintext CODE >248:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+13A maintext CODE >249:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+13B maintext CODE >250:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+13C maintext CODE >251:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+13D maintext CODE >252:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+140 maintext CODE >253:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+143 maintext CODE >254:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+146 maintext CODE >255:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+149 maintext CODE >256:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+14C maintext CODE >346:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+14C maintext CODE >352:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
+1B2 clrtext CODE >2043:C:\Users\Jaime\AppData\Local\Temp\ssso.s
+1B2 clrtext CODE >2044:C:\Users\Jaime\AppData\Local\Temp\ssso.s
+1B3 clrtext CODE >2045:C:\Users\Jaime\AppData\Local\Temp\ssso.s
+1B3 clrtext CODE >2046:C:\Users\Jaime\AppData\Local\Temp\ssso.s
+1B4 clrtext CODE >2047:C:\Users\Jaime\AppData\Local\Temp\ssso.s
+1B5 clrtext CODE >2048:C:\Users\Jaime\AppData\Local\Temp\ssso.s
+1B6 clrtext CODE >2049:C:\Users\Jaime\AppData\Local\Temp\ssso.s
+1B7 clrtext CODE >2050:C:\Users\Jaime\AppData\Local\Temp\ssso.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -350,11 +350,11 @@ __Hstrings 0 0 ABS 0 strings -
 _TMR1 16 0 ABS 0 - dist/default/production\Simon_Says.X.production.o
 _TMR2 1A 0 ABS 0 - dist/default/production\Simon_Says.X.production.o
 _TMR4 413 0 ABS 0 - dist/default/production\Simon_Says.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\Jaime\AppData\Local\Temp\s4gc.o
+___sp 0 0 STACK 2 stack C:\Users\Jaime\AppData\Local\Temp\ssso.o
 _game 20 0 BANK0 1 bssBANK0 dist/default/production\Simon_Says.X.production.o
 _main 266 0 CODE 0 maintext dist/default/production\Simon_Says.X.production.o
 btemp 7E 0 ABS 0 - dist/default/production\Simon_Says.X.production.o
-start 1CC 0 CODE 0 init C:\Users\Jaime\AppData\Local\Temp\s4gc.o
+start 1CC 0 CODE 0 init C:\Users\Jaime\AppData\Local\Temp\ssso.o
 __size_of_main 0 0 ABS 0 - dist/default/production\Simon_Says.X.production.o
 __end_of_init_debounce_TMR4 2D2 0 CODE 0 text3 dist/default/production\Simon_Says.X.production.o
 __Hstringtext10 0 0 ABS 0 stringtext10 -
@@ -364,12 +364,12 @@ __Hstringtext13 0 0 ABS 0 stringtext13 -
 __HbssCOMMON 0 0 ABS 0 bssCOMMON -
 _init_PWM_TMR2 1F8 0 CODE 0 text4 dist/default/production\Simon_Says.X.production.o
 __Hpowerup 0 0 CODE 0 powerup -
-intlevel0 0 0 ENTRY 0 functab C:\Users\Jaime\AppData\Local\Temp\s4gc.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\Jaime\AppData\Local\Temp\s4gc.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\Jaime\AppData\Local\Temp\s4gc.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\Jaime\AppData\Local\Temp\s4gc.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\Jaime\AppData\Local\Temp\s4gc.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\Jaime\AppData\Local\Temp\s4gc.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\Jaime\AppData\Local\Temp\ssso.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\Jaime\AppData\Local\Temp\ssso.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\Jaime\AppData\Local\Temp\ssso.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\Jaime\AppData\Local\Temp\ssso.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\Jaime\AppData\Local\Temp\ssso.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\Jaime\AppData\Local\Temp\ssso.o
 __LbssCOMMON 0 0 ABS 0 bssCOMMON -
 _OSCCONbits 99 0 ABS 0 - dist/default/production\Simon_Says.X.production.o
 wtemp0 7E 0 ABS 0 - dist/default/production\Simon_Says.X.production.o
@@ -395,8 +395,8 @@ _IOCCN3 1CC3 0 ABS 0 - dist/default/production\Simon_Says.X.production.o
 _IOCCN4 1CC4 0 ABS 0 - dist/default/production\Simon_Says.X.production.o
 _IOCCP3 1CBB 0 ABS 0 - dist/default/production\Simon_Says.X.production.o
 _IOCCP4 1CBC 0 ABS 0 - dist/default/production\Simon_Says.X.production.o
-___stackhi 21EF 0 ABS 0 - C:\Users\Jaime\AppData\Local\Temp\s4gc.o
-___stacklo 2050 0 ABS 0 - C:\Users\Jaime\AppData\Local\Temp\s4gc.o
+___stackhi 21EF 0 ABS 0 - C:\Users\Jaime\AppData\Local\Temp\ssso.o
+___stacklo 2050 0 ABS 0 - C:\Users\Jaime\AppData\Local\Temp\ssso.o
 _T4HLTbits 416 0 ABS 0 - dist/default/production\Simon_Says.X.production.o
 __size_of_init_PWM_TMR2 0 0 ABS 0 - dist/default/production\Simon_Says.X.production.o
 __CFG_PPS1WAY$OFF 0 0 ABS 0 - dist/default/production\Simon_Says.X.production.o
@@ -416,7 +416,7 @@ _RC5PPS EA5 0 ABS 0 - dist/default/production\Simon_Says.X.production.o
 clear_ram0 364 0 CODE 0 clrtext dist/default/production\Simon_Says.X.production.o
 __end_of_init_peripheral 304 0 CODE 0 text1 dist/default/production\Simon_Says.X.production.o
 __end_of_init_PWM_TMR2 266 0 CODE 0 text4 dist/default/production\Simon_Says.X.production.o
-___int_sp 0 0 STACK 2 stack C:\Users\Jaime\AppData\Local\Temp\s4gc.o
+___int_sp 0 0 STACK 2 stack C:\Users\Jaime\AppData\Local\Temp\ssso.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 ABS 0 bank2 -
@@ -585,7 +585,7 @@ __size_of_init_debounce_TMR4 0 0 ABS 0 - dist/default/production\Simon_Says.X.pr
 __end_of_isr 1CC 0 CODE 0 intentry dist/default/production\Simon_Says.X.production.o
 __CFG_BOREN$ON 0 0 ABS 0 - dist/default/production\Simon_Says.X.production.o
 __Lintentry 8 0 CODE 0 intentry -
-reset_vec 0 0 CODE 0 reset_vec C:\Users\Jaime\AppData\Local\Temp\s4gc.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\Jaime\AppData\Local\Temp\ssso.o
 __LbssBANK0 0 0 ABS 0 bssBANK0 -
 __Lstringtext1 0 0 ABS 0 stringtext1 -
 __Lstringtext2 0 0 ABS 0 stringtext2 -

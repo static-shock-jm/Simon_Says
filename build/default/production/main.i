@@ -15334,7 +15334,9 @@ extern __bank0 __bit __timeout;
 # 27 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.10\\pic\\include\\xc.h" 2 3
 # 44 "./pinConfig.h" 2
 # 7 "main.c" 2
-# 45 "main.c"
+
+# 1 "./PWM.h" 1
+# 21 "./PWM.h"
 # 1 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.10\\pic\\include\\c99\\stdint.h" 1 3
 # 22 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.10\\pic\\include\\c99\\stdint.h" 3
 # 1 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.10\\pic\\include\\c99\\bits/alltypes.h" 1 3
@@ -15418,8 +15420,26 @@ typedef int32_t int_fast32_t;
 typedef uint32_t uint_fast16_t;
 typedef uint32_t uint_fast32_t;
 # 139 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.10\\pic\\include\\c99\\stdint.h" 2 3
-# 45 "main.c" 2
+# 21 "./PWM.h" 2
 
+
+const uint8_t red_tone = 38;
+const uint8_t blue_tone = 25;
+const uint8_t yellow_tone = 18;
+const uint8_t green_tone = 14;
+const uint8_t test_tone = 6;
+const uint8_t duty_C_red = 78;
+const uint8_t duty_C_blue = 52;
+const uint8_t duty_C_yellow = 39;
+const uint8_t duty_C_green = 31;
+const uint8_t duty_C_test = 15;
+const uint8_t tone_off = 0;
+
+const int led_Tone[4] = {red_tone, blue_tone, yellow_tone, green_tone};
+const int d_Cycles[5] = {tone_off, duty_C_red, duty_C_blue, duty_C_yellow, duty_C_green};
+void init_PWM_TMR2(void);
+# 8 "main.c" 2
+# 47 "main.c"
 # 1 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.10\\pic\\include\\c99\\math.h" 1 3
 # 15 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.10\\pic\\include\\c99\\math.h" 3
 # 1 "C:\\Program Files (x86)\\Microchip\\xc8\\v2.10\\pic\\include\\c99\\bits/alltypes.h" 1 3
@@ -15792,23 +15812,10 @@ double jn(int, double);
 double y0(double);
 double y1(double);
 double yn(int, double);
-# 46 "main.c" 2
+# 47 "main.c" 2
 
 
-const uint8_t red_tone = 38;
-const uint8_t blue_tone = 25;
-const uint8_t yellow_tone = 18;
-const uint8_t green_tone = 14;
-const uint8_t test_tone = 6;
-const uint8_t duty_C_red = 78;
-const uint8_t duty_C_blue = 52;
-const uint8_t duty_C_yellow = 39;
-const uint8_t duty_C_green = 31;
-const uint8_t duty_C_test = 15;
-const uint8_t tone_off = 0;
 
-const int led_Tone[4] = {red_tone, blue_tone, yellow_tone, green_tone};
-const int d_Cycles[5] = {tone_off, duty_C_red, duty_C_blue, duty_C_yellow, duty_C_green};
 
 int game[40];
 int input =0;
@@ -15974,36 +15981,7 @@ void init_debounce_TMR4(void){
     IOCCP4 = 1;
 }
 
-void init_PWM_TMR2(void){
 
-
-    TRISCbits.TRISC5 = 1;
-    RC5PPS = 0b01100;
-    CCPTMRSbits.CCP1TSEL = 0b00;
-
-    PR2 = red_tone;
-
-    CCP1CONbits.MODE = 0b1100;
-    CCP1CONbits.FMT = 0;
-    CCP1CONbits.EN =1;
-
-    CCPR1H = 0b00;
-    CCPR1L = tone_off;
-
-    PIR1bits.TMR2IF = 0;
-    T2CONbits.CKPS = 0b111;
-    T2CONbits.OUTPS = 0x0;
-    T2CONbits.ON =1;
-    T2CLKCONbits.CS = 0x0;
-    T2HLTbits.PSYNC = 1;
-    T2HLTbits.T2CKSYNC =1;
-    T2HLTbits.MODE = 0b0000;
-
-    while(PIR1bits.TMR2IF == 1 & TMR2 ==0){
-        PIR1bits.TMR2IF = 0;
-    }
-    TRISCbits.TRISC5 = 0;
-}
 
 void init_delay_TMR1(void){
 
@@ -16045,7 +16023,7 @@ void main(void) {
     init_PWM_TMR2();
     init_delay_TMR1();
     init_CLC1();
-# 387 "main.c"
+# 346 "main.c"
     while(1){
 
 

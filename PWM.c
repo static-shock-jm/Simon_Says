@@ -8,6 +8,7 @@
 
 #include <xc.h>
 #include "PWM.h"
+#include <stdint.h>
 
 void init_PWM_TMR2(void){            //USIING TIMER2
     //------------------------RC5 PWM out to BUZZER----------------------------
