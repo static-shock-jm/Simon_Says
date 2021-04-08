@@ -1,3 +1,9 @@
 *.i
 *.p1
 *.p1.d
+*.mk
+*.xml
+nbproject/**/*.properties
+nbproject/**
+
+
