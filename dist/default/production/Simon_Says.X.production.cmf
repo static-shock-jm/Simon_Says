@@ -37,7 +37,7 @@ stringtext10 STRCODE 0 1BF 1BF 1 2
 stringtext11 STRCODE 0 1C0 1C0 1 2
 stringtext12 STRCODE 0 1C1 1C1 1 2
 stringtext13 STRCODE 0 1C2 1C2 1 2
-$C:\Users\Jaime\AppData\Local\Temp\ssso.o
+$C:\Users\Jaime\AppData\Local\Temp\sg64.o
 reset_vec CODE 0 0 0 2 2
 end_init CODE 0 E6 E6 2 2
 config CONFIG 0 8007 8007 3 2
@@ -119,24 +119,24 @@ STRING 1C3-FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\Simon_Says.X.production.o
-E8 cinit CODE >2018:C:\Users\Jaime\AppData\Local\Temp\ssso.s
-E8 cinit CODE >2021:C:\Users\Jaime\AppData\Local\Temp\ssso.s
-E8 cinit CODE >2054:C:\Users\Jaime\AppData\Local\Temp\ssso.s
-E9 cinit CODE >2055:C:\Users\Jaime\AppData\Local\Temp\ssso.s
-EA cinit CODE >2056:C:\Users\Jaime\AppData\Local\Temp\ssso.s
-EB cinit CODE >2057:C:\Users\Jaime\AppData\Local\Temp\ssso.s
-EC cinit CODE >2058:C:\Users\Jaime\AppData\Local\Temp\ssso.s
-ED cinit CODE >2059:C:\Users\Jaime\AppData\Local\Temp\ssso.s
-F0 cinit CODE >2063:C:\Users\Jaime\AppData\Local\Temp\ssso.s
-F1 cinit CODE >2064:C:\Users\Jaime\AppData\Local\Temp\ssso.s
-F2 cinit CODE >2065:C:\Users\Jaime\AppData\Local\Temp\ssso.s
-F3 cinit CODE >2066:C:\Users\Jaime\AppData\Local\Temp\ssso.s
-F4 cinit CODE >2067:C:\Users\Jaime\AppData\Local\Temp\ssso.s
-F5 cinit CODE >2068:C:\Users\Jaime\AppData\Local\Temp\ssso.s
-F8 cinit CODE >2074:C:\Users\Jaime\AppData\Local\Temp\ssso.s
-F8 cinit CODE >2076:C:\Users\Jaime\AppData\Local\Temp\ssso.s
-F9 cinit CODE >2077:C:\Users\Jaime\AppData\Local\Temp\ssso.s
-FA cinit CODE >2078:C:\Users\Jaime\AppData\Local\Temp\ssso.s
+E8 cinit CODE >2018:C:\Users\Jaime\AppData\Local\Temp\sg64.s
+E8 cinit CODE >2021:C:\Users\Jaime\AppData\Local\Temp\sg64.s
+E8 cinit CODE >2054:C:\Users\Jaime\AppData\Local\Temp\sg64.s
+E9 cinit CODE >2055:C:\Users\Jaime\AppData\Local\Temp\sg64.s
+EA cinit CODE >2056:C:\Users\Jaime\AppData\Local\Temp\sg64.s
+EB cinit CODE >2057:C:\Users\Jaime\AppData\Local\Temp\sg64.s
+EC cinit CODE >2058:C:\Users\Jaime\AppData\Local\Temp\sg64.s
+ED cinit CODE >2059:C:\Users\Jaime\AppData\Local\Temp\sg64.s
+F0 cinit CODE >2063:C:\Users\Jaime\AppData\Local\Temp\sg64.s
+F1 cinit CODE >2064:C:\Users\Jaime\AppData\Local\Temp\sg64.s
+F2 cinit CODE >2065:C:\Users\Jaime\AppData\Local\Temp\sg64.s
+F3 cinit CODE >2066:C:\Users\Jaime\AppData\Local\Temp\sg64.s
+F4 cinit CODE >2067:C:\Users\Jaime\AppData\Local\Temp\sg64.s
+F5 cinit CODE >2068:C:\Users\Jaime\AppData\Local\Temp\sg64.s
+F8 cinit CODE >2074:C:\Users\Jaime\AppData\Local\Temp\sg64.s
+F8 cinit CODE >2076:C:\Users\Jaime\AppData\Local\Temp\sg64.s
+F9 cinit CODE >2077:C:\Users\Jaime\AppData\Local\Temp\sg64.s
+FA cinit CODE >2078:C:\Users\Jaime\AppData\Local\Temp\sg64.s
 4 intentry CODE >59:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
 6 intentry CODE >61:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
 B intentry CODE >62:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
@@ -315,14 +315,14 @@ FE text4 CODE >17:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\PWM.c
 149 maintext CODE >256:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
 14C maintext CODE >346:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
 14C maintext CODE >352:C:\Users\Jaime\MPLABXProjects\Simon_Says.X\main.c
-1B2 clrtext CODE >2043:C:\Users\Jaime\AppData\Local\Temp\ssso.s
-1B2 clrtext CODE >2044:C:\Users\Jaime\AppData\Local\Temp\ssso.s
-1B3 clrtext CODE >2045:C:\Users\Jaime\AppData\Local\Temp\ssso.s
-1B3 clrtext CODE >2046:C:\Users\Jaime\AppData\Local\Temp\ssso.s
-1B4 clrtext CODE >2047:C:\Users\Jaime\AppData\Local\Temp\ssso.s
-1B5 clrtext CODE >2048:C:\Users\Jaime\AppData\Local\Temp\ssso.s
-1B6 clrtext CODE >2049:C:\Users\Jaime\AppData\Local\Temp\ssso.s
-1B7 clrtext CODE >2050:C:\Users\Jaime\AppData\Local\Temp\ssso.s
+1B2 clrtext CODE >2043:C:\Users\Jaime\AppData\Local\Temp\sg64.s
+1B2 clrtext CODE >2044:C:\Users\Jaime\AppData\Local\Temp\sg64.s
+1B3 clrtext CODE >2045:C:\Users\Jaime\AppData\Local\Temp\sg64.s
+1B3 clrtext CODE >2046:C:\Users\Jaime\AppData\Local\Temp\sg64.s
+1B4 clrtext CODE >2047:C:\Users\Jaime\AppData\Local\Temp\sg64.s
+1B5 clrtext CODE >2048:C:\Users\Jaime\AppData\Local\Temp\sg64.s
+1B6 clrtext CODE >2049:C:\Users\Jaime\AppData\Local\Temp\sg64.s
+1B7 clrtext CODE >2050:C:\Users\Jaime\AppData\Local\Temp\sg64.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -350,11 +350,11 @@ __Hstrings 0 0 ABS 0 strings -
 _TMR1 16 0 ABS 0 - dist/default/production\Simon_Says.X.production.o
 _TMR2 1A 0 ABS 0 - dist/default/production\Simon_Says.X.production.o
 _TMR4 413 0 ABS 0 - dist/default/production\Simon_Says.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\Jaime\AppData\Local\Temp\ssso.o
+___sp 0 0 STACK 2 stack C:\Users\Jaime\AppData\Local\Temp\sg64.o
 _game 20 0 BANK0 1 bssBANK0 dist/default/production\Simon_Says.X.production.o
 _main 266 0 CODE 0 maintext dist/default/production\Simon_Says.X.production.o
 btemp 7E 0 ABS 0 - dist/default/production\Simon_Says.X.production.o
-start 1CC 0 CODE 0 init C:\Users\Jaime\AppData\Local\Temp\ssso.o
+start 1CC 0 CODE 0 init C:\Users\Jaime\AppData\Local\Temp\sg64.o
 __size_of_main 0 0 ABS 0 - dist/default/production\Simon_Says.X.production.o
 __end_of_init_debounce_TMR4 2D2 0 CODE 0 text3 dist/default/production\Simon_Says.X.production.o
 __Hstringtext10 0 0 ABS 0 stringtext10 -
@@ -364,12 +364,12 @@ __Hstringtext13 0 0 ABS 0 stringtext13 -
 __HbssCOMMON 0 0 ABS 0 bssCOMMON -
 _init_PWM_TMR2 1F8 0 CODE 0 text4 dist/default/production\Simon_Says.X.production.o
 __Hpowerup 0 0 CODE 0 powerup -
-intlevel0 0 0 ENTRY 0 functab C:\Users\Jaime\AppData\Local\Temp\ssso.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\Jaime\AppData\Local\Temp\ssso.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\Jaime\AppData\Local\Temp\ssso.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\Jaime\AppData\Local\Temp\ssso.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\Jaime\AppData\Local\Temp\ssso.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\Jaime\AppData\Local\Temp\ssso.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\Jaime\AppData\Local\Temp\sg64.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\Jaime\AppData\Local\Temp\sg64.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\Jaime\AppData\Local\Temp\sg64.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\Jaime\AppData\Local\Temp\sg64.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\Jaime\AppData\Local\Temp\sg64.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\Jaime\AppData\Local\Temp\sg64.o
 __LbssCOMMON 0 0 ABS 0 bssCOMMON -
 _OSCCONbits 99 0 ABS 0 - dist/default/production\Simon_Says.X.production.o
 wtemp0 7E 0 ABS 0 - dist/default/production\Simon_Says.X.production.o
@@ -395,8 +395,8 @@ _IOCCN3 1CC3 0 ABS 0 - dist/default/production\Simon_Says.X.production.o
 _IOCCN4 1CC4 0 ABS 0 - dist/default/production\Simon_Says.X.production.o
 _IOCCP3 1CBB 0 ABS 0 - dist/default/production\Simon_Says.X.production.o
 _IOCCP4 1CBC 0 ABS 0 - dist/default/production\Simon_Says.X.production.o
-___stackhi 21EF 0 ABS 0 - C:\Users\Jaime\AppData\Local\Temp\ssso.o
-___stacklo 2050 0 ABS 0 - C:\Users\Jaime\AppData\Local\Temp\ssso.o
+___stackhi 21EF 0 ABS 0 - C:\Users\Jaime\AppData\Local\Temp\sg64.o
+___stacklo 2050 0 ABS 0 - C:\Users\Jaime\AppData\Local\Temp\sg64.o
 _T4HLTbits 416 0 ABS 0 - dist/default/production\Simon_Says.X.production.o
 __size_of_init_PWM_TMR2 0 0 ABS 0 - dist/default/production\Simon_Says.X.production.o
 __CFG_PPS1WAY$OFF 0 0 ABS 0 - dist/default/production\Simon_Says.X.production.o
@@ -416,7 +416,7 @@ _RC5PPS EA5 0 ABS 0 - dist/default/production\Simon_Says.X.production.o
 clear_ram0 364 0 CODE 0 clrtext dist/default/production\Simon_Says.X.production.o
 __end_of_init_peripheral 304 0 CODE 0 text1 dist/default/production\Simon_Says.X.production.o
 __end_of_init_PWM_TMR2 266 0 CODE 0 text4 dist/default/production\Simon_Says.X.production.o
-___int_sp 0 0 STACK 2 stack C:\Users\Jaime\AppData\Local\Temp\ssso.o
+___int_sp 0 0 STACK 2 stack C:\Users\Jaime\AppData\Local\Temp\sg64.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 ABS 0 bank2 -
@@ -585,7 +585,7 @@ __size_of_init_debounce_TMR4 0 0 ABS 0 - dist/default/production\Simon_Says.X.pr
 __end_of_isr 1CC 0 CODE 0 intentry dist/default/production\Simon_Says.X.production.o
 __CFG_BOREN$ON 0 0 ABS 0 - dist/default/production\Simon_Says.X.production.o
 __Lintentry 8 0 CODE 0 intentry -
-reset_vec 0 0 CODE 0 reset_vec C:\Users\Jaime\AppData\Local\Temp\ssso.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\Jaime\AppData\Local\Temp\sg64.o
 __LbssBANK0 0 0 ABS 0 bssBANK0 -
 __Lstringtext1 0 0 ABS 0 stringtext1 -
 __Lstringtext2 0 0 ABS 0 stringtext2 -

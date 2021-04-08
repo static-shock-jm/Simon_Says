@@ -5,7 +5,7 @@ Linker command line:
 -W-3 --edf=C:\Program Files (x86)\Microchip\xc8\v2.10\pic\dat\en_msgs.txt \
   -cs -h+dist/default/production\Simon_Says.X.production.sym \
   --cmf=dist/default/production\Simon_Says.X.production.cmf -z -Q16F1614 \
-  -oC:\Users\Jaime\AppData\Local\Temp\ssso.2 --defsym=__MPLAB_BUILD=1 \
+  -oC:\Users\Jaime\AppData\Local\Temp\sg64.2 --defsym=__MPLAB_BUILD=1 \
   -Mdist/default/production/Simon_Says.X.production.map -E1 -ver=XC8 \
   --acfsm=1493 -ASTACK=02050h-021EFh -pstack=STACK -ACODE=00h-07FFhx2 \
   -ASTRCODE=00h-0FFFh -ASTRING=00h-0FFhx16 -ACONST=00h-0FFhx16 \
@@ -29,7 +29,7 @@ Linker command line:
   -ppowerup=CODE -pcinit=CODE -pfunctab=ENTRY -ACONFIG=08007h-08009h \
   -pconfig=CONFIG -DCONFIG=2 -AIDLOC=08000h-08003h -pidloc=IDLOC -DIDLOC=2 \
   -DCODE=2 -DSTRCODE=2 -DSTRING=2 -DCONST=2 -DENTRY=2 -k \
-  C:\Users\Jaime\AppData\Local\Temp\ssso.o \
+  C:\Users\Jaime\AppData\Local\Temp\sg64.o \
   dist/default/production\Simon_Says.X.production.o 
 
 Object code version is 3.11
@@ -39,7 +39,7 @@ Machine type is 16F1614
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\Jaime\AppData\Local\Temp\ssso.o
+C:\Users\Jaime\AppData\Local\Temp\sg64.o
                 end_init                             E6       E6        2        8       0
                 reset_vec                             0        0        2        0       0
                 config                             8007     8007        3    1000E       0
