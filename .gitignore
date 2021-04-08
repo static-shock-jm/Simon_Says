@@ -1,3 +1,6 @@
+nbproject/
+dist/
+build/
 *.i
 *.p1
 *.p1.d
