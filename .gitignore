@@ -1,5 +1,5 @@
-nbproject/
 dist/
+nbproject/
 build/
 *.i
 *.p1
