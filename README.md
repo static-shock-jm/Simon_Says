@@ -17,16 +17,18 @@ This will require some hardware to get this up and running:
 * 4 LEDS
 * 4 220 OHM resistors
 * Breadboard 
+
 The last requirement is the program software or the IDE:
-*MPLABX
+* MPLABX
+
 An extensive tutorial to obtaining required parts and components can be found in the hardware folder as well as the setup 
 instructions for MPLABX. There is a crash course tutorial on the basics of the electronics used which is in the hardware 
 folder. 
 
 ## Table of Contents
-* [Circuit Diagram] (#Circuit-Diagram)
-* [Get it Working] (#Get-it-Working)
-* [PCB Design] (#PCB-Design)
+* [Circuit Diagram] (#circuit-diagram)
+* [Get it Working] (#get-it-working)
+* [PCB Design] (#pcb-design)
 
 ## Circuit Diagram 
 Wire up the circuit as shown in the circuit diagram, if you're new to wiring circuits a fritzing diagram is provided 
