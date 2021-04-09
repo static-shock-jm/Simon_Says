@@ -26,9 +26,9 @@ instructions for MPLABX. There is a crash course tutorial on the basics of the e
 folder. 
 
 ## Table of Contents
-* [Circuit Diagram] (#circuit-diagram)
-* [Get it Working] (#get-it-working)
-* [PCB Design] (#pcb-design)
+* [Circuit Diagram](#circuit-diagram)
+* [Get it Working](#get-it-working)
+* [PCB Design](#pcb-design)
 
 ## Circuit Diagram 
 Wire up the circuit as shown in the circuit diagram, if you're new to wiring circuits a fritzing diagram is provided 
@@ -47,6 +47,7 @@ If nothing caught on fire, you should have a working Simon Says game.
 ## PCB Design 
 ### Congrats!
 Hopefully you can see how easy it can be to get started with microcontrollers. If you want to take your design, you could 
-create a PCB for it as well. Creating a PCB for this simple circuit is super simple too. you can either use KiCad to
-design your own or you could use the one provided to you in the hardware section. 
+create a PCB for it as well. Creating a PCB for this simple circuit is easy, you can either use KiCad to
+design your own or you could use the one provided to you in the hardware section. Instructions to getting this manufactured
+can be found in the PCB folder.
 
