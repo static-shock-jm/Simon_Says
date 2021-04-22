@@ -16,6 +16,7 @@ This will require some hardware to get this up and running:
 * PIC16F1615
 * 4 LEDS
 * 4 220 OHM resistors
+* 4 Push switches 
 * Breadboard 
 
 The last requirement is the program software or the IDE:

@@ -1,11 +1,24 @@
 /*
  * File:   main.c
  * Author: Jaime
+ * Description: 
+ * Simon Says game with 4 button inputs, 4 LED outputs,
+ * and optional buzzer.
+ * 
+ * Notes: 
+ * Pin assignments:
+ * RC0-RC3 -> button1-button4
+ * RA2,RA4,RA5,RC4 -> LED1-LED4
+ * RC5 -> BUZZER
+ * 
  *
  * Created on July 23, 2020, 12:34 PM
  */
 #include "pinConfig.h"
-#include "PWM.h"
+#include "HW_GPIO.h"
+//#include "PWM.h"
+
+
 
 #define RED_LED_TRIS    TRISCbits.TRISC0
 #define BLUE_LED_TRIS   TRISCbits.TRISC1
@@ -44,18 +57,16 @@
 #define DELAY 25000
 
 #include <stdint.h>
-#include <math.h>
-
-
 
 int game[40];
 int input =0;
-
+/*
 void init_game(){
     for(int i =0; i<40;i++){
         game[i] = rand()%4;
     }
 }
+
 void __interrupt() isr(void){
   
     if(BTN1_IF){
@@ -212,8 +223,6 @@ void init_debounce_TMR4(void){
     IOCCP4 = 1;
 }
 
-
-
 void init_delay_TMR1(void){
     //TIMER1 FOR DEBOUNCING*********************LATER ON, PERFECT
     T1CONbits.TMR1CS = 0b00;     //TIMER1 CLOCK SOURCE SELECT: FOSC/4
@@ -239,7 +248,7 @@ void init_CLC1(void){
 void doNothing(){
     //Do nothing
 }
-
+*/
 void main(void) {
     OSCCONbits.IRCF = 0b1101;       //SET internal osc. frequency to 4MHz
     
@@ -249,11 +258,13 @@ void main(void) {
     INTCONbits.PEIE = 1;   //Peripheral interrupt enable 
     INTCONbits.INTE = 0;     //DISABLE external interrupt     
     INTCONbits.INTF = 0;     //Reset interrupt flag
-    init_peripheral();
+    Dio_Init(Dio_Config);
+    
+    /*init_peripheral();
     init_debounce_TMR4();
     init_PWM_TMR2();
     init_delay_TMR1();
-    init_CLC1();
+    init_CLC1();*/
 
    //PWM OUT: DIFFERETN APPROACH 
     /*TRISCbits.TRISC5 =1; //setting C5 bit to disable 
